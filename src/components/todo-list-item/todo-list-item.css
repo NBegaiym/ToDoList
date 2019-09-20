@@ -1,0 +1,19 @@
+.todolist-item{
+    margin:2px;
+}
+.float-right{
+    margin: 2px;
+}
+.todolist-item-label{
+    margin: 1.25rem;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+}
+.todolist-item.done .todo-list-item-label{
+    text-decoration: line-through;
+}
+.todolist-item.important .todo-list-item-label{
+    font-weight: bold;
+    color: steelblue;
+}
